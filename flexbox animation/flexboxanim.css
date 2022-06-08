@@ -1,0 +1,513 @@
+h1{
+	color: blue;
+	font-size:4em;
+	font-family:candara;
+	font-weight: bold;
+}
+
+.wrapper{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+	
+}
+.frame{
+	border: 1px solid black;
+	background-color: yellow;
+	width:25rem;
+	height:25rem;
+	position: absolute;
+	bottom: 40px;
+	left:30px;
+	display: flex;
+	justify-content: center;
+	align-content: center; 
+	
+}
+	
+
+/*class s1 styling*/
+.s0{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a0;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a0{
+	50%{
+		transform: rotate(190deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+/*class s1 styling*/
+.s1{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a1;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a1{
+	50%{
+		transform: rotate(180deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s2 styling*/
+.s2{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a2;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a2{
+	50%{
+		transform: rotate(170deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s3 styling*/
+.s3{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a3;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a3{
+	50%{
+		transform: rotate(160deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s4 styling*/
+.s4{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a4;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a4{
+	50%{
+		transform: rotate(150deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s5 styling*/
+.s5{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a5;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a5{
+	50%{
+		transform: rotate(140deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s6 styling*/
+.s6{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a6;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a6{
+	50%{
+		transform: rotate(130deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s7 styling*/
+.s7{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a7;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a7{
+	50%{
+		transform: rotate(120deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s8 styling*/
+.s8{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a8;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a8{
+	50%{
+		transform: rotate(110deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s9 styling*/
+.s9{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a9;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a9{
+	50%{
+		transform: rotate(100deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s10 styling*/
+.s10{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a10;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a10{
+	50%{
+		transform: rotate(90deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s11 styling*/
+.s11{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a11;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a11{
+	50%{
+		transform: rotate(80deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s12 styling*/
+.s12{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a12;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a12{
+	50%{
+		transform: rotate(70deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+
+/*class s13 styling*/
+.s13{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a13;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a13{
+	50%{
+		transform: rotate(60deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s14 styling*/
+.s14{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a14;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a14{
+	50%{
+		transform: rotate(50deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s15 styling*/
+.s15{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a15;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a15{
+	50%{
+		transform: rotate(40deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s16 styling*/
+.s16{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a16;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a16{
+	50%{
+		transform: rotate(30deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+
+/*class s17 styling*/
+.s17{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a17;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a17{
+	50%{
+		transform: rotate(20deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+
+/*class s18 styling*/
+.s18{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a18;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a18{
+	50%{
+		transform: rotate(10deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s19 styling*/
+.s19{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a19;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a19{
+	50%{
+		transform: rotate(5deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
+
+/*class s20 styling*/
+.s20{
+	border: 1px solid black;
+	background-color: light-green;
+	width: 12rem;
+	height: 12rem;
+	margin: 10%;
+	padding: 5%;
+	position: absolute;
+	top:40px;
+	left: 40px;
+	animation-name: a20;
+	animation-duration: 3s;
+	animation-iteration-count:infinite;
+}
+@keyframes a20{
+	50%{
+		transform: rotate(3deg);
+		height: 3rem;
+		border-radius: 50%;
+		}
+}
